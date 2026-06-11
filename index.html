@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Russian and Lithuanian interpretation and document-filling assistance.">
+  <title>Kalba Help | Russian ↔ Lithuanian Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Kalba Help home">
+      <span class="brand-mark">K</span>
+      <span>Kalba Help</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#services" data-copy="navServices">Services</a>
+      <a href="#pricing" data-copy="navPrices">Prices</a>
+      <a href="#request" data-copy="navRequest">Request help</a>
+    </nav>
+    <div class="language-switcher" aria-label="Website language">
+      <button class="language active" data-language="en">EN</button>
+      <button class="language" data-language="lt">LT</button>
+      <button class="language" data-language="ru">RU</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-copy="eyebrow">Clear communication. Less paperwork stress.</p>
+        <h1 data-copy="heroTitle">Russian <span>↔</span> Lithuanian help for everyday life</h1>
+        <p class="hero-text" data-copy="heroText">Friendly interpretation and practical support completing forms, writing letters and understanding documents.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#request" data-copy="heroCta">Ask for help</a>
+          <a class="button secondary" href="#services" data-copy="heroSecondary">See services</a>
+        </div>
+        <ul class="trust-list">
+          <li data-copy="trustOne">Confidential</li>
+          <li data-copy="trustTwo">Simple pricing</li>
+          <li data-copy="trustThree">Online or in person</li>
+        </ul>
+      </div>
+      <aside class="hero-card">
+        <div class="card-topline"><span></span><span></span><span></span></div>
+        <p class="small-label" data-copy="exampleLabel">A typical request</p>
+        <blockquote data-copy="exampleQuote">“I received a Lithuanian letter and need to understand it and prepare my reply.”</blockquote>
+        <div class="route">
+          <span>RU</span><div class="route-line">→</div><span>LT</span>
+        </div>
+        <div class="answer-time">
+          <strong data-copy="replyTime">Reply within 2 working hours</strong>
+          <span data-copy="replyNote">No document upload needed to enquire</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow" data-copy="servicesEyebrow">What I can help with</p>
+        <h2 data-copy="servicesTitle">Practical language support</h2>
+        <p data-copy="servicesIntro">Choose one service or combine them for more complicated paperwork.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card accent-blue">
+          <span class="service-number">01</span>
+          <h3 data-copy="serviceOneTitle">Interpretation</h3>
+          <p data-copy="serviceOneText">Phone calls, appointments and online meetings in Russian and Lithuanian.</p>
+          <span class="price" data-copy="serviceOnePrice">From £25 / 30 min</span>
+        </article>
+        <article class="service-card accent-gold">
+          <span class="service-number">02</span>
+          <h3 data-copy="serviceTwoTitle">Form filling</h3>
+          <p data-copy="serviceTwoText">Guidance completing everyday applications and administrative forms.</p>
+          <span class="price" data-copy="serviceTwoPrice">From £20 / form</span>
+        </article>
+        <article class="service-card accent-red">
+          <span class="service-number">03</span>
+          <h3 data-copy="serviceThreeTitle">Letters & documents</h3>
+          <p data-copy="serviceThreeText">Plain-language explanation and help drafting a clear response.</p>
+          <span class="price" data-copy="serviceThreePrice">From £15 / page</span>
+        </article>
+      </div>
+      <div class="scope-note">
+        <strong data-copy="scopeTitle">Important:</strong>
+        <span data-copy="scopeText">This service provides language and administrative assistance. It is not legal advice or certified translation.</span>
+      </div>
+    </section>
+
+    <section class="process-section">
+      <div class="section-heading light">
+        <p class="eyebrow" data-copy="processEyebrow">Simple process</p>
+        <h2 data-copy="processTitle">Help in three steps</h2>
+      </div>
+      <div class="steps">
+        <div><span>1</span><h3 data-copy="stepOneTitle">Describe the task</h3><p data-copy="stepOneText">Tell me the language, document type and deadline.</p></div>
+        <div><span>2</span><h3 data-copy="stepTwoTitle">Confirm the price</h3><p data-copy="stepTwoText">You receive a clear quote before any work begins.</p></div>
+        <div><span>3</span><h3 data-copy="stepThreeTitle">Get support</h3><p data-copy="stepThreeText">Meet online, by phone or at an agreed location.</p></div>
+      </div>
+    </section>
+
+    <section class="section estimate-section" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow" data-copy="estimateEyebrow">Quick estimate</p>
+        <h2 data-copy="estimateTitle">See an indicative price</h2>
+        <p data-copy="estimateIntro">Final pricing depends on complexity and urgency.</p>
+      </div>
+      <div class="calculator">
+        <label><span data-copy="estimateService">Service</span>
+          <select id="estimate-service">
+            <option value="25" data-copy="optionInterpretation">Interpretation — 30 minutes</option>
+            <option value="20" data-copy="optionForm">Form filling — one form</option>
+            <option value="15" data-copy="optionDocument">Document help — one page</option>
+          </select>
+        </label>
+        <label><span data-copy="estimateQuantity">Quantity</span>
+          <input id="estimate-quantity" type="number" min="1" max="20" value="1">
+        </label>
+        <div class="estimate-total"><span data-copy="estimateFrom">Estimated from</span><strong id="estimate-total">£25</strong></div>
+      </div>
+    </section>
+
+    <section class="request-section" id="request">
+      <div class="request-copy">
+        <p class="eyebrow" data-copy="requestEyebrow">Request support</p>
+        <h2 data-copy="requestTitle">Tell me what you need</h2>
+        <p data-copy="requestIntro">Send a short enquiry first. Do not include passport numbers, bank details or sensitive documents.</p>
+        <div class="service-area">
+          <span data-copy="serviceAreaLabel">Service area</span>
+          <strong>Slough · Maidenhead · Windsor · London</strong>
+          <small data-copy="serviceAreaRemote">Remote support available across the UK.</small>
+        </div>
+        <div class="contact-detail"><span data-copy="contactNameLabel">Contact</span><strong>Anastazija</strong></div>
+        <div class="contact-detail"><span>WhatsApp</span><strong>07826 965180</strong></div>
+        <div class="contact-detail"><span>Email</span><strong><a href="mailto:varina100@proton.me">varina100@proton.me</a></strong></div>
+      </div>
+      <form id="request-form">
+        <label><span data-copy="formName">Your name</span><input id="name" type="text" required autocomplete="name"></label>
+        <label><span data-copy="formContact">Phone or email</span><input id="contact" type="text" required autocomplete="email"></label>
+        <label><span data-copy="formLanguage">Language direction</span>
+          <select id="direction"><option>Russian → Lithuanian</option><option>Lithuanian → Russian</option><option data-copy="optionBoth">Both / not sure</option></select>
+        </label>
+        <label><span data-copy="formHelp">What do you need help with?</span><textarea id="message" rows="5" required data-placeholder="formPlaceholder" placeholder="Example: I need help understanding a letter and completing a reply form."></textarea></label>
+        <label class="consent"><input id="consent" type="checkbox" required><span data-copy="formConsent">I agree to be contacted about this enquiry.</span></label>
+        <button class="button primary full" type="submit" data-copy="formSubmit">Prepare WhatsApp enquiry</button>
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="privacy-section" id="privacy">
+      <div>
+        <p class="eyebrow" data-copy="privacyEyebrow">Your information</p>
+        <h2 data-copy="privacyTitle">Privacy notice</h2>
+      </div>
+      <div class="privacy-copy">
+        <p data-copy="privacyTextOne">When you make an enquiry, Anastazija uses the name, contact details and message you provide only to respond and arrange the requested service.</p>
+        <p data-copy="privacyTextTwo">This website does not upload or store documents. Please do not send passport numbers, bank details or sensitive documents in your first message.</p>
+        <p data-copy="privacyTextThree">Your enquiry is not sold or used for marketing. You can ask for your contact details or messages to be deleted by emailing varina100@proton.me.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Kalba Help</span><a href="#privacy" data-copy="privacyLink">Privacy</a><span data-copy="footerText">Russian ↔ Lithuanian language assistance</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
