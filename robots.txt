@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anastazija-kalba.github.io/kalba-help/sitemap.xml
